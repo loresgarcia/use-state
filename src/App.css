@@ -33,6 +33,7 @@ input {
   box-sizing: border-box;
   border: 1px solid #cccccc;
   border-radius: 4px;
+  outline: none;
 }
 
 div {
@@ -54,4 +55,10 @@ li {
 
 strong {
   color: #555555;
+}
+
+@media screen and (max-width: 480px) {
+  .App-header {
+    width: 90%; 
+  }
 }
